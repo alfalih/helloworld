@@ -15,7 +15,9 @@
         <div class="header container">
             <div class="nav-bar">
                 <div class="nav-left">
-                    <a href="alfalih.github.io/helloworld/"><span>alfalih</span></a>
+                    <div class="brand">
+                        <a href="#header"><span>alfalih</span></a>
+                    </div>
                     
                     <div class="slash"></div>
                     <ul>                        
@@ -34,7 +36,7 @@
         </div>
     </section>
     <!-- End of Header -->    
-       
+      
 
     <!-- Recent Project -->
     <section id="projects">
@@ -45,9 +47,9 @@
                     <div class="project-info">
                         <h1>Titanic - Machine Learning from Disaster</h1>
                         <img src="img/titanic.jpg" alt="">
-                    
+                        <span class="title-content">Data Science Solutions</span>
                         <p>
-                            <span>Data Science Solutions</span>
+                            
                             <br>
                             This notebook is a companion to the book Data Science Solutions.
                             The notebook walks us through a typical workflow for solving data science competitions at sites like Kaggle.
@@ -58,12 +60,12 @@
                             The objective of this notebook is to follow a step-by-step workflow, explaining each step and rationale for every decision we take during 
                             solution development.
                             <br>
-
-                            <span>Workflow stages</span>
                             The competition solution workflow goes through seven stages described in the Data Science Solutions book.
-                            <br>
+                        </p>
 
-                            <span>Workflow stages</span>
+                        <span class="title-content">Workflow stages</span>
+                        <p>
+                            
                             <ul>
                                 <li>Acquire training and testing data.</li>
                                 <li>Wrangle, prepare, cleanse the data.</li>
@@ -97,7 +99,9 @@
                             One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew.
                             Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
                             <br>
-                            <span>Workflow goals</span>
+                        </p>
+                        <span class="title-content">Workflow goals</span>
+                        <p>
                             <br>
                             The data science solutions workflow solves for seven major goals.
                             <ul>
@@ -116,12 +120,16 @@
                                 <li><span>Charting.</span> How to select the right visualization plots and charts depending on nature of the data and the solution goals.
                                 </li>
                             </ul>
+                        </p>
+                        <span class="title-content">Refactor Release 2017-Jan-29</span>
+                        <p>
+                            We are significantly refactoring the notebook based on (a) comments received by readers, 
+                            (b) issues in porting notebook from Jupyter kernel (2.7) to Kaggle kernel (3.5), 
+                            and (c) review of few more best practice kernels.
 
-                            
-                            <span>Refactor Release 2017-Jan-29</span>
-                            We are significantly refactoring the notebook based on (a) comments received by readers, (b) issues in porting notebook from Jupyter kernel (2.7) to Kaggle kernel (3.5), and (c) review of few more best practice kernels.
-
-                            <span>User comments</span>
+                        </p>
+                        <span class="title-content">User comments</span>
+                        <p>
                             Combine training and test data for certain operations like converting titles across dataset to numerical values. (thanks @Sharan Naribole)
                             Correct observation - nearly 30% of the passengers had siblings and/or spouses aboard. (thanks @Reinhard)
                             Correctly interpreting logistic regresssion coefficients. (thanks @Reinhard)
@@ -130,7 +138,8 @@
                             Best practices
                             Performing feature correlation analysis early in the project.
                             Using multiple plots instead of overlays for readability.
-                        </p>   
+                        </p>
+                         
                     </div>
                 </div>
                                 
@@ -140,34 +149,34 @@
     <!-- End of Recent Project -->
     
 
-    <!-- Footer  -->
-    <section id="footer">
-        <div class="footer container">
-            <div class="brand"><a href="#halaman"><h1>A</span>lfalih</h1></a></div>
-            <div class="social-icon">
-                <div class="social-item">
-                    <a href="https://www.linkedin.com/in/ahmadghanyalfalih/" target="_blank"><img src="img/linkedin.png" alt=""></a>
-                </div>
-            
-            
-                <div class="social-item">
-                    <a href="https://twitter.com/alfalih_" target="_blank"><img src="img/twitter.png" alt=""></a>
-                </div>
-            
-            
-                <div class="social-item">
-                    <a href="https://www.instagram.com/alfalih_" target="_blank"><img src="img/instagram.png" alt=""></a>
-                </div>
-            
-            
-                <!-- <div class="social-item"> -->
-                    <!-- <a href="https://wwww.facebook.com/ahmad.ghany.al.falih/"><img src="img/facebook.png" alt=""></a> -->
-                <!-- </div> -->
+ <!-- Footer  -->
+ <section id="footer">
+    <div class="footer container">
+        <div class="social-icon">
+            <div class="social-item">
+                <a href="https://www.linkedin.com/in/ahmadghanyalfalih/" target="_blank"><img src="img/linkedin.png" alt=""></a>
             </div>
-            <p>Copyright ⓒ 2022 Alfalih. All rights reserved </p>
+        
+        
+            <div class="social-item">
+                <a href="https://twitter.com/alfalih_" target="_blank"><img src="img/twitter.png" alt=""></a>
+            </div>
+        
+        
+            <div class="social-item">
+                <a href="https://www.instagram.com/alfalih_" target="_blank"><img src="img/instagram.png" alt=""></a>
+            </div>
+        
+        
+            <!-- <div class="social-item"> -->
+                <!-- <a href="https://wwww.facebook.com/ahmad.ghany.al.falih/"><img src="img/facebook.png" alt=""></a> -->
+            <!-- </div> -->
         </div>
-    </section>
-    <!-- End of Footer  -->
+        <div class="brand"><a href="#halaman"><h1><span>alfalih</span></h1></a></div>
+        <p>Copyright ⓒ 2022 Alfalih. All rights reserved </p>
+    </div>
+</section>
+<!-- End of Footer  -->
     <script src="script.js"> </script>
 </body>
 </html>

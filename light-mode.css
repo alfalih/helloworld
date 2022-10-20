@@ -1,7 +1,8 @@
 *{
     font-size: 14px;
-    color: black;
+    font-family:'Times New Roman', Times, serif;
     text-decoration: none;
+    justify-content: center;
 }
 html {
   margin: 2.5% 10%;
@@ -13,13 +14,11 @@ html {
 .brand span{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
   font-size: 24px;
+  color: #AAAAAA;
   font-weight: 800;
   height: auto;
   display: inline-block;
   
-}
-h1{
-  font-size: 24px;
 }
 /* Header (Nav-bar) */
 .nav-bar {
@@ -51,6 +50,7 @@ h1{
 }
 .nav-left li a{
     display: block;
+    color: #AAAAAA;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -101,9 +101,6 @@ input:checked + .toogle::before{
     height: 200px;
     object-fit: cover;
   }
-.highlight h1{
-  font-size: 14px;
-}
   .content{
     display: flex;
     justify-content: left;
@@ -129,32 +126,17 @@ input:checked + .toogle::before{
     margin: auto;
 }
 .project-info{
-  text-align: center;
+  text-align: left;
 }
-
+.project-info h1{
+  font-size: 30px;
+}
 .title-content{
   padding:12px;
   text-decoration: underline;
   font-size: 24px;
 }
 /* End of Project */
-.about{
-  justify-content: center;
-  text-align: center;
-  
-}
-.about img{
-  width: 600px;
-  height: 500px;
-  object-fit: cover;
-  display: block;
-  margin: auto;
-}
-.about-info{
-  margin: 0px auto;
-  width: 600px;
-  text-align: justify;
-}
 
   /* Footer */
   .footer {
@@ -164,7 +146,7 @@ input:checked + .toogle::before{
   
   .footer .social-icon{
     display:flex;
-    justify-content: center;
+
   }
   
   .footer img{
