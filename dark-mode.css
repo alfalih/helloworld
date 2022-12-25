@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
 *{
     font-size: 14px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Mulish', Times, serif;
     text-decoration: none;
     justify-content: center;
-    background-color: black;
+    background-color: #282c35;
+    color: whitesmoke;
 }
 html {
   margin: 2.5% 10%;
@@ -15,7 +17,7 @@ html {
 .brand span{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
   font-size: 24px;
-  color: #AAAAAA;
+  color: whitesmoke;
   font-weight: 800;
   height: auto;
   display: inline-block;
@@ -39,7 +41,7 @@ html {
   width: 1px;
   height: 40px;
   margin: 0px 16px;
-  background-color: #AAAAAA;
+  background-color: whitesmoke;
 }
 .nav-left ul{
   padding: 0;
@@ -51,7 +53,7 @@ html {
 }
 .nav-left li a{
     display: block;
-    color: #AAAAAA;
+    color: whitesmoke;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -97,6 +99,9 @@ input:checked + .toogle::before{
 /* End of Header */
 
 /* highlight */
+.highlight{
+  margin-bottom: 100px;
+}
 .highlight img {
     width: 200px;
     height: 200px;
@@ -117,6 +122,9 @@ input:checked + .toogle::before{
 
 /* Project */
 .project-item {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
   margin-bottom: 200px;
 }
 .project-item img{
@@ -127,7 +135,7 @@ input:checked + .toogle::before{
     margin: auto;
 }
 .project-info{
-  text-align: left;
+  text-align: center;
 }
 .project-info h1{
   font-size: 30px;
@@ -138,6 +146,29 @@ input:checked + .toogle::before{
   font-size: 24px;
 }
 /* End of Project */
+
+/* About */
+.about{
+  justify-content: center;
+  text-align: center;
+  
+}
+.about img{
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+.about-info{
+  margin: 0px auto;
+  width: 1000px;
+  text-align: justify;
+}
+.about h1{
+  text-align: center;
+}
+/* End of About */
 
   /* Footer */
   .footer {
