@@ -2,8 +2,6 @@ const darkmode = "dark-mode.css";
 const lightmode = "light-mode.css";
 
 const theme = document.getElementById("theme-mode");
-const checked = document.getElementById("theme-switcher");
-var toogle = document.getElementById('theme-switcher');
 
 let modenow = sessionStorage.getItem('modenow')
 
