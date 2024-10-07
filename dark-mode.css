@@ -118,6 +118,31 @@ input:checked + .toogle::before{
     display: inline-block;
     text-align: center;
   }
+
+  @media only screen and (max-width: 600px) { 
+    .highlight{
+      margin-bottom: 50px;
+    }
+    .highlight img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+      }
+      .content{
+        display: flex;
+        justify-content: left;
+      }
+      .mySlides {
+        width: 100px;
+        height: 150px;
+        margin: 15px;
+        display: inline-block;
+        text-align: center;
+      }
+      .highlight h1{
+        display: none;
+      }
+   }
 /* End of highlight */
 
 /* Project */
@@ -144,6 +169,42 @@ input:checked + .toogle::before{
   padding:12px;
   text-decoration: underline;
   font-size: 24px;
+}
+.hr{
+  width:800px;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: auto;
+  }
+  .project-item img{
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+      display: block;
+      margin: auto;
+  }
+  .project-info{
+    text-align: center;
+  }
+  .project-info h1{
+    font-size: 15px;
+  }
+  .project-info p{
+    font-size: 12px;
+  }
+  .title-content{
+    padding:6px;
+    text-decoration: underline;
+    font-size: 12px;
+  }
+  .hr{
+    width:400px;
+  }
 }
 /* End of Project */
 
